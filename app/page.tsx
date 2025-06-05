@@ -17,7 +17,7 @@ export default function HomePage() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-blue-600/80 z-10"></div>
         <video autoPlay muted loop className="absolute inset-0 w-full h-full object-cover">
-          <source src="https://web.archive.org/web/20250519005819/https://res.cloudinary.com/djk8zmysz/video/upload/v1727863135/Web/Homepage/somatic-health-homepage-background-video.webm" type="video/webm" />
+          <source src="https://web.archive.org/web/20250519005819/https://res.cloudinary.com/djk8zmysz/video/upload/v1727863135/Web/Homepage/Thriveortho-health-homepage-background-video.webm" type="video/webm" />
         </video>
 
         <div className="relative z-20 text-center text-white max-w-4xl mx-auto px-4">
@@ -53,7 +53,7 @@ export default function HomePage() {
             <div>
               <h2 className="text-4xl font-bold text-gray-800 mb-6">From Injury Prevention to Faster Recovery</h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Somatic Health offers comprehensive injury prevention by AI-powered 3D movement assessments, hybrid
+                Thriveortho Health offers comprehensive injury prevention by AI-powered 3D movement assessments, hybrid
                 "virtual + in-clinic" physical therapy on-demand, and remote health engagement through digital
                 rehabilitation platform.
               </p>
@@ -68,7 +68,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-800 mb-4">Complete Prevention and Rehabilitation Solutions</h2>
             <p className="text-lg text-gray-600 max-w-4xl mx-auto">
-              Somatic is a digital healthcare platform with AI-enabled technologies supporting MSK care from early
+              Thriveortho is a digital healthcare platform with AI-enabled technologies supporting MSK care from early
               online visit to remote therapeutic monitoring.
             </p>
           </div>
@@ -77,7 +77,7 @@ export default function HomePage() {
             <div>
               <h3 className="text-3xl font-bold text-gray-800 mb-6">Prevention</h3>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Movement Assessment for injury prevention, fall prevention and rehabilitations using Somatic 3D Scan
+                Movement Assessment for injury prevention, fall prevention and rehabilitations using Thriveortho 3D Scan
                 Assessment. A comprehensive gait and balance, FMS and other functional movement analysis will be used to
                 guide MSK strengthening and rehabilitation programs.
               </p>
@@ -114,7 +114,7 @@ export default function HomePage() {
               <CardContent className="pt-6">
                 <h3 className="text-2xl font-bold text-gray-800 mb-4">Early Intervention</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Somatic Ecosystem provides an immediate access to physical therapy through AI-based MoveGPT or Virtual
+                  Thriveortho Ecosystem provides an immediate access to physical therapy through AI-based MoveGPT or Virtual
                   Physical Therapy consultations with practitioners or health coaches available in all 50 states.
                 </p>
               </CardContent>
@@ -172,7 +172,7 @@ export default function HomePage() {
               <div>
                 <h3 className="text-3xl font-bold text-gray-800 mb-4">Lower Injury Rate</h3>
                 <p className="text-lg text-gray-600">
-                  With the state-of-the-art Somatic 3D Scan, we can identify problems in advance and dramatically reduce
+                  With the state-of-the-art Thriveortho 3D Scan, we can identify problems in advance and dramatically reduce
                   work-related injuries, prevent falls, and other MSK injuries.
                 </p>
               </div>
@@ -181,7 +181,7 @@ export default function HomePage() {
             <div className="flex justify-center">
               <div className="bg-whitte rounded-2xl p-4 w-64 h-80">
                 <Image
-                  src="https://web.archive.org/web/20250406010900im_/https://www.somatichealth.com/images/results/higher-satisfaction-rate.webp"
+                  src="https://web.archive.org/web/20250406010900im_/https://www.Thriveorthohealth.com/images/results/higher-satisfaction-rate.webp"
                   alt="Higher satisfaction rate results"
                   width={200}
                   height={400}
@@ -274,7 +274,7 @@ export default function HomePage() {
             <div>
               <h2 className="text-4xl font-bold text-gray-800 mb-4">Get Started</h2>
               <p className="text-lg text-gray-600">
-                Somatic engages with your employees and delivers care remotely for better outcomes.
+                Thriveortho engages with your employees and delivers care remotely for better outcomes.
               </p>
             </div>
             <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg mt-6 md:mt-0">

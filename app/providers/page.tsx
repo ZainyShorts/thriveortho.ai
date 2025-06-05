@@ -40,9 +40,8 @@ export default function provider() {
             Partner with us as part of the Centers of Excellence for Non-invasive MSK Care.
           </p>
 
-          {/* Somatic Health's Turnkey RTM Solution */}
           <h2 className="text-3xl md:text-4xl font-bold text-center text-[#2d76b8] mb-12">
-            Somatic Health's Turnkey RTM Solution
+            Thriveortho Turnkey RTM Solution
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -340,7 +339,7 @@ export default function provider() {
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="text-[#2d76b8] mt-1 flex-shrink-0" />
-                  <span>SomaticEngage Solution enabling expansion of clinic appointments to video visits</span>
+                  <span>Thriveortho Solution enabling expansion of clinic appointments to video visits</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="text-[#2d76b8] mt-1 flex-shrink-0" />

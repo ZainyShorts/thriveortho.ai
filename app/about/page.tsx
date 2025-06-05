@@ -162,7 +162,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-bold text-gray-800 mb-6">Our Mission</h2>
               <p className="text-lg text-gray-600 mb-6">
-                At SomaticHealth, we're revolutionizing musculoskeletal healthcare by providing comprehensive,
+                At Thriveortho, we're revolutionizing musculoskeletal healthcare by providing comprehensive,
                 technology-driven solutions that span from prevention to rehabilitation. Our platform empowers
                 healthcare providers and employers to deliver personalized, evidence-based care that improves outcomes
                 while reducing costs.
@@ -264,7 +264,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold text-gray-800 mb-2">Get Started</h2>
               <p className="text-lg text-gray-600">
-                Somatic engages with your employees and delivers care remotely for better outcomes.
+                Thriveortho engages with your employees and delivers care remotely for better outcomes.
               </p>
             </div>
             <div className="mt-6 md:mt-0">

@@ -35,7 +35,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="#" className="text-blue-100 hover:text-white">
-                  About Somatic Health
+                  About Thriveortho Health
                 </Link>
               </li>
               <li>
@@ -55,12 +55,12 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="#" className="text-blue-100 hover:text-white">
-                  SomaticEngage
+                  ThriveorthoEngage
                 </Link>
               </li>
               <li>
                 <Link href="#" className="text-blue-100 hover:text-white">
-                  Somatic3DScan
+                  Thriveortho3DScan
                 </Link>
               </li>
             </ul>

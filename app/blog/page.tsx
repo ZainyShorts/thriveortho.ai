@@ -131,11 +131,11 @@ export default function BlogPage() {
             <div className="p-6">
               <p className="text-gray-500 text-sm mb-2">Oct 15, 2024</p>
               <h2 className="text-xl font-bold text-gray-800 mb-2">
-                HealthBus Partners with Somatic Health to Transform AI-Powered MSK Solutions
+                HealthBus Partners with Thriveortho Health to Transform AI-Powered MSK Solutions
               </h2>
               <p className="text-gray-600 mb-4 line-clamp-3">
                 HealthBus, a leader in integrated healthcare solutions, is thrilled to announce a strategic partnership
-                with Somatic Health.
+                with Thriveortho Health.
               </p>
               <Link href="#" className="text-blue-600 font-medium flex items-center hover:underline">
                 Read More <ArrowRight className="ml-1 h-4 w-4" />
@@ -159,7 +159,7 @@ export default function BlogPage() {
                 Unlock the Future of MSK Care: A Game-Changing Partnership
               </h2>
               <p className="text-gray-600 mb-4 line-clamp-3">
-                Introducing a revolutionary partnership between Somatic Health and Kinetisense, designed to transform
+                Introducing a revolutionary partnership between Thriveortho Health and Kinetisense, designed to transform
                 how organizations approach musculoskeletal health.
               </p>
               <Link href="#" className="text-blue-600 font-medium flex items-center hover:underline">

@@ -28,7 +28,7 @@ export default function Component() {
               MSK Care Reimagined with 3D Assessments
             </h1>
             <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto px-4">
-              Somatic 3D Scan is the world's most advanced MSK assessment
+              Thriveortho 3D Scan is the world's most advanced MSK assessment
               technology based on 3D lidar and large language model AI.
             </p>
           </div>
@@ -64,12 +64,12 @@ export default function Component() {
                 Achieve Better MSK Care and Lasting Results
               </h2>
               <p className="text-gray-600 text-sm sm:text-base lg:text-lg leading-relaxed">
-                The Somatic 3D Scan is the world's most advanced musculoskeletal
+                The Thriveortho 3D Scan is the world's most advanced musculoskeletal
                 (MSK) assessment and treatment technology, utilizing
                 cutting-edge 3D lidar and AI algorithms. Our proprietary
                 technology features an AI-powered, evidence-based marker-less
                 joint capture analysis system (Kinestesian) with the leading
-                ICD-10-based rehabilitation video library (Somatic HEP Library).
+                ICD-10-based rehabilitation video library (Thriveortho HEP Library).
               </p>
             </div>
           </div>
@@ -329,7 +329,7 @@ export default function Component() {
                 Get Started
               </h2>
               <p className="text-gray-600 text-sm sm:text-base">
-                Somatic engages with your employees and delivers care remotely
+                Thriveortho engages with your employees and delivers care remotely
                 for better outcomes.
               </p>
             </div>

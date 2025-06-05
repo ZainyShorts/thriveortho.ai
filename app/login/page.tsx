@@ -90,7 +90,7 @@ export default function LoginPage() {
 
           {/* Footer */}
           <div className="text-center text-xs text-gray-500 space-y-1 pt-8">
-            <p>Copyright © 2021 All rights reserved by Somatic Health Inc.</p>
+            <p>Copyright © 2021 All rights reserved by Thriveortho Health Inc.</p>
             <div className="space-x-4">
               <Link href="/terms" className="hover:text-gray-700 underline">
                 Terms of Use

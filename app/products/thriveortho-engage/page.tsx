@@ -28,7 +28,6 @@ function page() {
                 {/* <div className="w-6 h-6 bg-blue-600 rounded mr-2"></div> */}
                 <Image src="/images/logo.png" width={200} height={20} alt="" />
 
-                {/* <span className="text-blue-600 font-medium">SomaticEngage</span> */}
               </div>
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
                 Comprehensive Patient Engagement Solution
@@ -42,7 +41,7 @@ function page() {
               <div className="relative">
                 <Image
                   src="/images/Rtm-header_zydqom.webp"
-                  alt="SomaticEngage Platform Dashboard"
+                  alt="Thriveortho Platform Dashboard"
                   width={600}
                   height={400}
                   // className="rounded-lg shadow-2xl"

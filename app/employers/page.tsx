@@ -42,7 +42,7 @@ const page = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">Comprehensive MSK Care Solution</h2>
           <p className="text-center max-w-4xl mx-auto mb-12">
-            Somatic Health empowers your employees to live a safe and healthy lifestyle. We start with on-site
+            Thriveortho Health empowers your employees to live a safe and healthy lifestyle. We start with on-site
             injury-prevention using a 3D movement scan technology, followed by on-demand online PT consultations, and
             transition to in-clinic care only when necessary in through a seamless process to achieve immediate care and
             fast recovery.
@@ -194,7 +194,7 @@ const page = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Managing Chronic Health Conditions</h2>
           <p className="text-center max-w-4xl mx-auto mb-12">
-            Somatic offers over 4,000 home exercise video programs covering MSK and chronic diseases.
+            Thriveortho offers over 4,000 home exercise video programs covering MSK and chronic diseases.
           </p>
 
           <div className="relative">
@@ -323,7 +323,7 @@ const page = () => {
                   </div>
                   <div className="flex items-center gap-2">
                     <Check className="text-green-500" />
-                    <span>Somatic Care System</span>
+                    <span>Thriveortho Care System</span>
                   </div>
                 </div>
               </div>
@@ -332,7 +332,7 @@ const page = () => {
             <div>
               <p className="text-lg mb-4">Our solution reduces the most expensive cost for our members.</p>
               <p className="mb-8">
-                The Somatic approach uses AI/computer vision to create more employee accountability to ensure that the
+                The Thriveortho approach uses AI/computer vision to create more employee accountability to ensure that the
                 dollars result in a significant ROI
               </p>
 
@@ -413,7 +413,7 @@ const page = () => {
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
             <div>
               <h2 className="text-3xl font-bold mb-2">Get Started</h2>
-              <p>Somatic engages with your employees and delivers care remotely for better outcomes.</p>
+              <p>Thriveortho engages with your employees and delivers care remotely for better outcomes.</p>
             </div>
             <div>
               <span
