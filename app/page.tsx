@@ -17,7 +17,7 @@ export default function HomePage() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-blue-600/80 z-10"></div>
         <video autoPlay muted loop className="absolute inset-0 w-full h-full object-cover">
-          <source src="https://web.archive.org/web/20250519005819/https://res.cloudinary.com/djk8zmysz/video/upload/v1727863135/Web/Homepage/Thriveortho-health-homepage-background-video.webm" type="video/webm" />
+          <source src="https://res.cloudinary.com/djk8zmysz/video/upload/v1727863135/Web/Homepage/somatic-health-homepage-background-video.webm" type="video/webm" />
         </video>
 
         <div className="relative z-20 text-center text-white max-w-4xl mx-auto px-4">
