@@ -4,126 +4,15 @@ import { Badge } from "@/components/ui/badge"
 import { ChevronLeft, ChevronRight, Play, ArrowRight } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
+import Header from "./component/Header"
+import Footer from "./component/Footer"
 
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="bg-white shadow-sm relative z-50">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
-                <div className="w-4 h-4 bg-white rounded-full"></div>
-              </div>
-              <span className="text-xl font-semibold text-gray-800">SomaticHealth</span>
-              <span className="text-sm text-gray-500 ml-2">MOVEMENT AS MEDICINE</span>
-            </div>
-
-            <nav className="hidden md:flex items-center space-x-8">
-              <Link href="/" className="text-gray-700 hover:text-blue-600">
-                Home
-              </Link>
-
-              <div className="relative group">
-                <button className="text-gray-700 hover:text-blue-600 flex items-center">
-                  Solutions
-                  <ChevronRight className="w-4 h-4 ml-1 transform group-hover:rotate-90 transition-transform" />
-                </button>
-                <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                  <div className="py-2">
-                    <Link
-                      href="/solutions/providers"
-                      className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-blue-600"
-                    >
-                      For Providers
-                    </Link>
-                    <Link
-                      href="/solutions/employers"
-                      className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-blue-600"
-                    >
-                      For Employers
-                    </Link>
-                  </div>
-                </div>
-              </div>
-
-              <div className="relative group">
-                <button className="text-gray-700 hover:text-blue-600 flex items-center">
-                  Products
-                  <ChevronRight className="w-4 h-4 ml-1 transform group-hover:rotate-90 transition-transform" />
-                </button>
-                <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                  <div className="py-2">
-                    <Link
-                      href="/products/somatic-engage"
-                      className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-blue-600"
-                    >
-                      SomaticEngage
-                    </Link>
-                    <Link
-                      href="/products/somatic-3d-scan"
-                      className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-blue-600"
-                    >
-                      Somatic3DScan
-                    </Link>
-                  </div>
-                </div>
-              </div>
-
-              <Link href="/pricing" className="text-gray-700 hover:text-blue-600">
-                Pricing
-              </Link>
-
-              <div className="relative group">
-                <button className="text-gray-700 hover:text-blue-600 flex items-center">
-                  Resources
-                  <ChevronRight className="w-4 h-4 ml-1 transform group-hover:rotate-90 transition-transform" />
-                </button>
-                <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                  <div className="py-2">
-                    <Link
-                      href="/resources/blog"
-                      className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-blue-600"
-                    >
-                      Blog
-                    </Link>
-                    <Link
-                      href="/resources/case-studies"
-                      className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-blue-600"
-                    >
-                      Case Studies
-                    </Link>
-                    <Link
-                      href="/resources/whitepapers"
-                      className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-blue-600"
-                    >
-                      Whitepapers
-                    </Link>
-                  </div>
-                </div>
-              </div>
-
-              <Link href="/about" className="text-gray-700 hover:text-blue-600">
-                About Us
-              </Link>
-              <Link href="/contact" className="text-gray-700 hover:text-blue-600">
-                Contact Us
-              </Link>
-            </nav>
-
-            <div className="flex items-center space-x-4">
-              <Button asChild variant="outline" className="text-blue-600 border-blue-600 hover:bg-blue-50">
-                <Link href="/signup">SIGN UP</Link>
-              </Button>
-              <Button asChild className="bg-blue-600 hover:bg-blue-700">
-                <Link href="/login">LOG IN</Link>
-              </Button>
-            </div>
-          </div>
-        </div>
-      </header>
-
+      
+      <Header/>
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-blue-600/80 z-10"></div>
@@ -290,12 +179,12 @@ export default function HomePage() {
             </div>
 
             <div className="flex justify-center">
-              <div className="bg-black rounded-2xl p-4 w-64 h-80">
+              <div className="bg-whitte rounded-2xl p-4 w-64 h-80">
                 <Image
-                  src="/images/higher-satisfaction-rate.webp"
+                  src="https://web.archive.org/web/20250406010900im_/https://www.somatichealth.com/images/results/higher-satisfaction-rate.webp"
                   alt="Higher satisfaction rate results"
-                  width={240}
-                  height={300}
+                  width={200}
+                  height={400}
                   className="rounded-lg"
                 />
               </div>
@@ -396,101 +285,7 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-blue-600 text-white py-16">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <div className="flex items-center space-x-2 mb-6">
-                <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
-                  <div className="w-4 h-4 bg-blue-600 rounded-full"></div>
-                </div>
-                <span className="text-xl font-semibold">SomaticHealth</span>
-              </div>
-              <p className="text-sm text-blue-100 mb-4">MOVEMENT AS MEDICINE</p>
-              <p className="text-blue-100">info@somatichealth.com</p>
-            </div>
-
-            <div>
-              <ul className="space-y-3">
-                <li>
-                  <Link href="#" className="text-blue-100 hover:text-white">
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-blue-100 hover:text-white">
-                    Providers
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-blue-100 hover:text-white">
-                    Employers
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-blue-100 hover:text-white">
-                    About Somatic Health
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-blue-100 hover:text-white">
-                    Contact Us
-                  </Link>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <ul className="space-y-3">
-                <li>
-                  <Link href="#" className="text-blue-100 hover:text-white">
-                    Products
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-blue-100 hover:text-white">
-                    SomaticEngage
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-blue-100 hover:text-white">
-                    Somatic3DScan
-                  </Link>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <ul className="space-y-3">
-                <li>
-                  <Link href="#" className="text-blue-100 hover:text-white">
-                    Privacy Policy
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-blue-100 hover:text-white">
-                    Terms of Use
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-blue-100 hover:text-white">
-                    SMS Compliance: Privacy Policy
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-blue-100 hover:text-white">
-                    SMS Compliance: Terms & Conditions
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="border-t border-blue-500 mt-12 pt-8 text-center">
-            <p className="text-blue-100">Copyright © 2024 All rights reserved by Somatic Health</p>
-          </div>
-        </div>
-      </footer>
+      <Footer/>
     </div>
   )
 }
