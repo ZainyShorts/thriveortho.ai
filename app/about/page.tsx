@@ -301,37 +301,37 @@ const managementTeam: TeamMember[] = [
   {
     name: "Chris Burns",
     title: "CEO",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "https://www.somatichealth.com/images/team/chris-burns.webp",
     linkedin: "#",
   },
   {
     name: "Bill Brossman",
     title: "VP of Strategic Partnerships",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "https://cdn.pixabay.com/photo/2023/05/02/10/35/avatar-7964945_1280.png",
     linkedin: "#",
   },
   {
     name: "Chris Bise",
     title: "VP of Clinical Operations & Innovation",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "https://www.somatichealth.com/images/team/chris-bise.webp",
     linkedin: "#",
   },
   {
     name: "Jasmel Acosta",
     title: "CTO",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "https://www.somatichealth.com/images/team/jasmel-acosta.webp",
     linkedin: "#",
   },
   {
     name: "George Catuogno",
     title: "VP Wellness Solutions",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "https://cdn.pixabay.com/photo/2023/05/02/10/35/avatar-7964945_1280.png",
     linkedin: "#",
   },
   {
     name: "Kunal Gandhi",
     title: "VP Of Fundraising & Social Media",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "https://cdn.pixabay.com/photo/2023/05/02/10/35/avatar-7964945_1280.png",
     linkedin: "#",
   },
 ]
@@ -342,31 +342,31 @@ const boardOfDirectors: TeamMember[] = [
     name: "Jen Melani",
     title: "Board Chair",
     credentials: "MD",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "https://cdn.pixabay.com/photo/2023/05/02/10/35/avatar-7964945_1280.png",
     linkedin: "#",
   },
   {
     name: "Bill Brossman",
     title: "Board Member",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "https://cdn.pixabay.com/photo/2023/05/02/10/35/avatar-7964945_1280.png",
     linkedin: "#",
   },
   {
     name: "Chris Burns",
     title: "Board Member",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "https://www.somatichealth.com/images/team/chris-burns.webp",
     linkedin: "#",
   },
   {
     name: "Dan Fletcher",
     title: "Board Member",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "https://www.somatichealth.com/images/team/dan.webp",
     linkedin: "#",
   },
   {
     name: "Colleen Murphy",
     title: "Board Member",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "https://www.somatichealth.com/images/team/colleen-m.jpg",
     linkedin: "#",
   },
 ]
@@ -431,7 +431,7 @@ export default function TeamPage() {
           <div className="mb-16 text-center">
             <div className="relative mb-4 inline-block">
               <Image
-                src={managementTeam[0].image || "/placeholder.svg?height=200&width=200"}
+                src={managementTeam[0].image || "https://cdn.pixabay.com/photo/2023/05/02/10/35/avatar-7964945_1280.png"}
                 alt={managementTeam[0].name}
                 width={200}
                 height={200}
@@ -456,7 +456,7 @@ export default function TeamPage() {
               <div key={index} className="text-center">
                 <div className="relative mb-4 inline-block">
                   <Image
-                    src={member.image || "/placeholder.svg?height=200&width=200"}
+                    src={member.image || "https://cdn.pixabay.com/photo/2023/05/02/10/35/avatar-7964945_1280.png"}
                     alt={member.name}
                     width={200}
                     height={200}
@@ -490,7 +490,7 @@ export default function TeamPage() {
           <div className="mb-16 text-center">
             <div className="relative mb-4 inline-block">
               <Image
-                src={boardOfDirectors[0].image || "/placeholder.svg?height=200&width=200"}
+                src={boardOfDirectors[0].image || "https://cdn.pixabay.com/photo/2023/05/02/10/35/avatar-7964945_1280.png"}
                 alt={boardOfDirectors[0].name}
                 width={200}
                 height={200}
@@ -518,7 +518,7 @@ export default function TeamPage() {
               <div key={index} className="text-center">
                 <div className="relative mb-4 inline-block">
                   <Image
-                    src={member.image || "/placeholder.svg?height=200&width=200"}
+                    src={member.image || "https://cdn.pixabay.com/photo/2023/05/02/10/35/avatar-7964945_1280.png"}
                     alt={member.name}
                     width={200}
                     height={200}
@@ -556,7 +556,7 @@ export default function TeamPage() {
               <div key={index} className="text-center">
                 <div className="relative mb-4 inline-block">
                   <Image
-                    src={member.image || "/placeholder.svg?height=200&width=200"}
+                    src={member.image || "https://cdn.pixabay.com/photo/2023/05/02/10/35/avatar-7964945_1280.png"}
                     alt={member.name}
                     width={200}
                     height={200}
