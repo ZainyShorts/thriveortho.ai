@@ -339,10 +339,10 @@ const managementTeam: TeamMember[] = [
 // Board of Directors
 const boardOfDirectors: TeamMember[] = [
   {
-    name: "Jen Melani",
+    name: "Ken Melani",
     title: "Board Chair",
     credentials: "MD",
-    image: "https://cdn.pixabay.com/photo/2023/05/02/10/35/avatar-7964945_1280.png",
+    image: "https://res.cloudinary.com/dlasb4krd/image/upload/v1750334540/rawyhlfpkh46tdse27xe.jpg",
     linkedin: "#",
   },
   {
